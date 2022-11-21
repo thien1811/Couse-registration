@@ -1,0 +1,212 @@
+/* Basic Styling */
+/* Columns */
+.right-column {
+    margin-top: 60px;
+}
+
+
+/* Left Column */
+.left-column img {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+/* Right Column */
+
+/* Product Description */
+.product-description {
+    border-bottom: 1px solid #E1E8EE;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.product-description span {
+    font-size: 12px;
+    color: #358ED7;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.product-description h1 {
+    font-weight: 300;
+    font-size: 52px;
+    color: #43484D;
+    letter-spacing: -2px;
+}
+.product-description p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #86939E;
+    line-height: 24px;
+}
+
+/* Product Configuration */
+.product-size span{
+    font-size: 20px;
+    font-weight: 400;
+    color: #86939E;
+    display: inline-block;
+    margin-bottom: 10px
+}
+/* Product Color */
+.product-size {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #E1E8EE;
+    height: 130px;
+}
+.size-choose div {
+    display: inline-block;
+}
+.size-choose input[type="radio"]+ label{
+    border: 2px solid #86939E;
+    height: 50px;
+    opacity: 0.5;
+}
+
+.size-choose input[type="radio"] {
+    display: none;
+}
+.size-choose input[type="radio"]:checked + label,
+.size-choose input[type="radio"]:hover + label,
+.size-choose input[type="radio"]:active + label,
+.size-choose input[type="radio"]:focus + label 
+{
+    border: 2px solid black;
+    opacity: 1; 
+    transition: 0.4s;
+}
+.form-group input[type="number"] {
+    height: 45px;
+    width: 60px;
+    font-size: 20pt;
+    opacity: 0.8;
+    margin-left: 10px
+}
+/* Cable Configuration */
+
+/* Product Price */
+.product-price {
+    display: flex;
+    align-items: center;
+}
+
+.product-price span {
+    font-size: 26px;
+    font-weight: 300;
+    color: #43474D;
+    margin-right: 20px;
+}
+
+.cart-btn {
+    float: right;
+    display: inline-block;
+    background-color: black;
+    border-radius: 6px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    padding: 12px 30px;
+    transition: all 0.2s;
+}
+.cart-btn:hover {
+    opacity: 0.8;
+}
+
+/* Responsive */
+@media (max-width: 940px) {
+    .left-column,
+    .right-column {
+        width: 100%;
+    }
+
+    .left-column img {
+        width: 300px;
+        right: 0;
+        top: -65px;
+        left: initial;
+    }
+}
+
+@media (max-width: 535px) {
+    .left-column img {
+        width: 220px;
+        top: -85px;
+    }
+}
+.card{
+    margin: 20px 0px;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+.card a:hover{
+    color: #86939E
+}
+.cart-item{
+    width: 100%;
+    float: left;
+    padding: 0;
+    background-color: #eee;
+}
+.cart-item img{
+    width: 100%;
+    height: 100px;
+    float: left;
+    object-fit: cover;
+}
+.continue{
+    position: absolute;
+    bottom: -50px;
+    right: 8%;
+}
+.continue a{
+    float: right; 
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 10pt;
+}
+.continue a:hover{
+    opacity: 0.8;
+    color: #86939E;
+}
+.purchase-btn a{
+    float: right;
+    display: inline-block;
+    background-color: black;
+    border-radius: 6px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    transition: all 0.2s;
+}
+.purchase-btn:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+.purchase-btn a{
+    background-color: black;
+    color: white;
+}
+.info input[type="text"][type="email"][type="tel"]{
+    border: 2px solid #86939E;
+    opacity: 0.5;
+    display: none;
+}
+
+.info input[type="text"][type="email"][type="tel"]:hover ,
+.info input[type="text"][type="email"][type="tel"]:focus 
+{
+    border: 2px solid black;
+    opacity: 1; 
+    transition: 0.4s;
+}
+ul li a{color: black;}
+
+
+.input-field {
+  width: 60%;
+  padding: 10px;
+  outline: none;
+}

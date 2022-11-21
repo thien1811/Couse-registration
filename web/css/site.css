@@ -1,0 +1,256 @@
+.service-item{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 0px;
+    font-size: 10pt
+}
+
+.service-item-title{
+    font-size: 20px;
+}
+
+.combo-header-des{
+    color: rgb(201, 201, 201);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.item{
+    background-color: rgb(219, 219, 219);
+    padding: 10px 10px 0px 10px;
+}
+
+.item-title{
+    border-bottom: 2px dashed rgb(168, 157, 157);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+/*.footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px 0px;
+    margin-top: 100px;
+}*/
+
+.footer1{
+    /*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+}
+
+.service-row{
+    position: relative; 
+    margin-bottom: 20px;
+}
+
+div a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    display:inline-block;
+}
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+ul li {display: inline-block;}
+ul li a{color: white;}
+ul li:hover {background: #555;}
+ul li:hover ul {display: block;}
+
+ul li image:hover {background: black !important}
+
+
+ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+    z-index: 5;
+    text-align: center;
+}
+ul li ul li { 
+    background: #555; 
+    
+    display: block; 
+
+}
+ul li ul li a {display:block !important;color: white;} 
+ul li ul li:hover {background: #666;}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+}
+
+.mr{
+    margin: 0px 10px 10px 10px
+}
+
+form.example input[type=text]{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: right;
+    width: 80%;
+    height: 100%;
+    background: #f1f1f1;
+    transition: width 0.4s ease-in-out;
+    position: relative;
+    float: left;
+}
+
+form.example button {
+    float: right;
+    width: 20%;
+    padding: 10px;
+    background: black;
+    color: white;
+    font-size: 17px;
+    border: 1px solid black;
+    border-left: none;
+    cursor: pointer;
+    position: absolute;
+    right: 7px;
+    top:-2px;
+}
+
+form.example button:hover {
+    background: gray;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;   
+}
+
+.zoom{
+    /*padding: px;*/
+    transition: transform .2s;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    z-index: -1;
+}
+
+.zoom1{
+    padding: 20px;
+    transition: transform .2s;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    z-index: -1;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+    z-index: 10
+}
+
+.zoom1:hover {
+    transform: scale(1.5);
+    z-index: 10
+}
+.banner img{
+    width: 100%;
+    height: 500px;
+    object-fit: none;
+}
+.link:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.link:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.link:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+.link:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   margin-top: 20px;
+   padding: 20px 0px;
+}
+
