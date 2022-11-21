@@ -1,4 +1,5 @@
-# This is a Course Registration website.
+# Welcome to my Repository - Course Registration website.
+
 
 ## You will find in this repository:
 
