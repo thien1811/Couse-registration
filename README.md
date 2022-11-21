@@ -3,7 +3,7 @@
 
 ## You will find in this repository:
 
-* NetBeans Apche Ant project.
+* NetBeans Apache Tomcat project.
 * database folder consist of Database for this project.
 * .gitignore file for NetBeans project.
 * README.md - this file itself - using Markdown language
